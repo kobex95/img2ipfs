@@ -70,7 +70,7 @@ $(document).ready(() => {
             // 电子书格式
             '.EPUB', '.MOBI', '.AZW', '.AZW3', '.CBR', '.CBZ', '.FB2',
             // 压缩文件格式
-            '.ZIP', '.RAR', '.7Z', '.GZ', '.TAR', '.ISO',
+            '.ZIP', '.RAR', '.7Z', '.GZ', '.TAR', '.ISO','.exe',
             // 源代码文件格式
             '.C', '.CPP', '.H', '.HPP', '.JAVA', '.PY', '.JS', '.HTML', '.CSS', '.PHP', '.RB', '.GO', '.R', '.SWIFT', '.KT', '.TS', '.CS', '.VB', '.SH', '.BAT', '.CMD', '.PS1', '.PL', '.PM', '.R', '.RMD', '.IPYNB', '.RKT', '.SCALA', '.LUA', '.ML', '.VHD', '.V', '.SV', '.ASM', '.S', '.PAS', '.BAS', '.LISP', '.SCM', '.SCSS', '.SASS', '.LESS', '.COFFEE', '.TSX', '.JSX', '.XML', '.YAML', '.YML', '.INI', '.CFG', '.CONF'
         ];
@@ -92,9 +92,7 @@ $(document).ready(() => {
             }
 
             document.querySelector('.container').classList.add('start');
-            const api = 'https://cdn.ipfsscan.io/api/v0/add?pin=false';
-            const formData = new FormData();
-            formData.append('file', file);
+            const api =  = 'https://file.5w.lol/api/v0/add?pin=fal = 'https://cdn.ipfsscan./api/v0/add?pin=fal =             formData.append('file', file);
             const randomClass = Date.now().toString(36);
 
             $('.filelist .list').append(`

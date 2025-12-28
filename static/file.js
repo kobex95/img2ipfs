@@ -162,7 +162,7 @@ $(document).ready(() => {
                 },
                 success: res => {
                     if (res.Hash) {
-                        const imgSrc = `https://cdn.ipfsscan.io/ipfs/${res.Hash}`;
+                        const imgSrc = `https://file.5w.lol/ipfs/${res.Hash}`;
                         setTimeout(seeding(res),3000)
                         $('#file').val(null);
                         $(`.${randomClass}`).find('.progress-inner').addClass('success');
